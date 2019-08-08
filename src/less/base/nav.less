@@ -1,0 +1,44 @@
+.header {
+    height: 72px;
+    padding: 15px;
+    border-bottom: 1px solid @lightdark;
+    line-height: 35px;
+    position: fixed;
+    left: 0; right: 0;
+    z-index: 999;
+    background-color: @light;
+    &-img {
+        img {
+            height: 35px;
+            margin-right: 15px;
+        }
+    }
+    &-search {
+        @media @mobile { display: none}
+        img {
+            width: 22px;
+        }
+        .input-group{
+            .form-control {
+                border-radius: .25rem;
+            }
+            &-append {
+                position: absolute;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                z-index: 3;
+                button {
+                    background: transparent;
+                    padding: 0 10px
+                }
+            }
+        }
+    }
+    &-profil {
+        img {
+            width: 35px;
+            height: auto;
+        }
+    }
+}

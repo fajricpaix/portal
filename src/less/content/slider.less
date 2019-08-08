@@ -1,0 +1,124 @@
+.main-slider {
+    position: relative;
+}
+
+.slider {
+    &-content {
+        background-size: cover;
+        background-position: center;
+        padding-bottom: 9.1%;
+        height: 0;
+        overflow: hidden;
+        position: relative;
+        border: 1px solid @lightdark;
+        &-caption {
+            position: absolute;
+            left: 0; right: 0;
+            bottom: 0;
+            padding: 0 20px;
+            color: @light;
+            background-image: linear-gradient(to top, @dark, transparent 80%);
+        }
+    }
+    .slick{
+        &-prev {
+            left: 0;
+            z-index: 2;
+        }
+        &-next {
+            right: 0;
+            z-index: 2;
+        }
+        &-dots {
+            bottom: 0;
+            li {
+                margin: 0;
+                @media @mobile {
+                    width: 15px; 
+                }
+                button{
+                    &:before {
+                        content: "";
+                        background-color: @light;
+                        width: 10px;
+                        height: 10px;
+                        border-radius: 50%;
+                        @media @mobile {
+                            width: 7px;
+                            height: 7px;
+                        }
+                    }
+                }
+            } 
+        }
+    }
+    &-arrow {
+        position: absolute;
+        top: 0; left: 0; right: 0;
+        &-left-round, &-right-round {
+            top: 75px;
+            position: absolute;
+            padding: 5px 0;
+            @media @mobile {
+                top: 150px;
+            }
+            &:active {
+                opacity: .75;
+            }
+        }
+        &-left-round {
+            left: 10px;
+        }
+        &-right-round {
+            right: 10px;
+        }
+        &-left, &-right {
+            top: 250px;
+            position: absolute;
+            padding: 5px 0;
+            @media @mobile {
+                top: 150px;
+            }
+            &:active {
+                background-color: rgba(0, 0, 0, .2);
+                border: 1px solid @light;
+            }
+        }
+        &-left {
+            left: 0;
+        }
+        &-right {
+            right: 0;
+        }
+        img {
+            width: 25px;
+        }
+    }
+}
+
+.image-slider {
+    margin: 10px 0 20px;
+    &-wrapper {
+        padding: 15px 0 20px
+    }
+    &-body {
+        padding: 0 10px;
+        position: relative;
+        &:focus {
+            outline: none;
+        }
+        img {
+            width: 100%;
+        }
+    }
+    .slick {
+        &-prev {
+            left: 0;
+            z-index: 2;
+        }
+        &-next {
+            right: 0;
+            z-index: 2;
+        }
+    }
+}

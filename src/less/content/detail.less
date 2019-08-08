@@ -1,0 +1,36 @@
+.detail {
+    margin: 1.75rem 0;
+    &-img {
+        margin-bottom: 1.75em;
+        img {
+            width: 100%;
+        }
+    }
+    &-paragraf {
+        p {
+            text-align: justify;
+            font-size: 14px;
+            margin: 1rem 0;
+            a {
+                color: @primary;
+                font-weight: bold;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    &-hyperlink {
+        padding: .75rem;
+        background-color: @lightdark;
+        border: 1px solid darken(@lightdark, 10%);
+        font-size: 14px;
+        a {
+            color: @dark;
+        }
+        span {
+            color: @primary;
+            font-weight: 500;
+        }
+    }
+}

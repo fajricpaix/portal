@@ -1,0 +1,30 @@
+body.dark {
+    background-color: @dark;
+    color: @light;
+    .header {
+        background-color: @dark;
+        &-search {
+            img {
+                filter: invert(10);
+            }
+        }
+        .form-control {
+            background-color: @dark;
+            color: @light;
+        }
+    }
+    .sidebar {
+        background-color: @dark;
+    }
+    .tag-header {
+        background-color: lighten(@dark, 20%);
+    }
+    .list-caption {
+        img {
+            filter: invert(0);
+        }
+    }
+    .detail-hyperlink {
+        background-color: @light;
+    }
+}

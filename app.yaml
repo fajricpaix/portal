@@ -1,0 +1,62 @@
+runtime: python27
+api_version: 1
+service: pnd-landing
+threadsafe: true
+
+handlers:
+# Handle the main page by serving the index page.
+# Note the $ to specify the end of the path, since app.yaml does prefix matching.
+- url: /$
+  static_files: src/index.html
+  upload: src/index.html
+
+# Handle detail promo by serving the static html files.
+- url: /promo/detail/(.*)$
+  static_files: src/promo_detail.html
+  upload: src/(.*)
+
+# Handle folder urls by serving the index.html page inside.
+- url: /(.*)/$
+  static_files: src/\1/index.html
+  upload: src/.*/index.html
+
+# Handle nearly every other file by just serving it.
+- url: /(.+)
+  static_files: src/\1
+  upload: src/(.*)
+
+# Recommended file skipping declaration from the GAE tutorials
+skip_files:
+  - ^(.*/)?app\.yaml
+  - ^(.*/)?app\.yml
+  - ^(.*/)?#.*#
+  - ^(.*/)?.*~
+  - ^(.*/)?.*\.py[co]
+  - ^(.*/)?.*/RCS/.*
+  - ^(.*/)?\..*
+  - ^(.*/)?tests$
+  - ^(.*/)?test$
+  - ^test/(.*/)?
+  - ^COPYING.LESSER
+  - ^README\..*
+  - \.gitignore
+  - ^\.git/.*
+  - \.*\.lint$
+  - ^fabfile\.py
+  - ^testrunner\.py
+  - ^grunt\.js
+  - ^node_modules/(.*/)?
+  - ^.circleci
+  - ^.temp
+  - ^config
+  - ^dist
+  - ^docker
+  - ^functions
+  - ^mock
+  - ^public
+  - ^scipts
+  - ^tests
+  - \.editorconfig
+  - \.eslintignore
+  - \.eslintrc.js
+  - \.firebaserc

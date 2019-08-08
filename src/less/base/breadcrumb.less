@@ -1,0 +1,11 @@
+.breadcrumb {
+    background-color: transparent;
+    padding: 20px 0;
+    margin-bottom: 0;
+    font-weight: 300;
+    font-size: 12px;
+    &-item + .breadcrumb-item::before {
+        content: ">";
+        font-family: monospace;
+    }
+}

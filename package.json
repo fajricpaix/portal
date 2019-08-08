@@ -1,0 +1,12 @@
+{
+  "name": "lsb-landing",
+  "version": "1.0.0",
+  "description": "Portal Media",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "deploy" : "gcloud config set project lido-cash-market && gcloud -q app deploy app.yaml"
+  },
+  "author": "",
+  "license": "ISC"
+}

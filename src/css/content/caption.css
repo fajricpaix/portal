@@ -1,0 +1,17 @@
+.caption h5 {
+  font-size: 1rem;
+}
+.caption h6 {
+  font-size: 0.75rem;
+  margin-bottom: 0.25rem;
+}
+.caption h6 img {
+  display: inline-block;
+  padding-right: 5px;
+}
+.caption ul {
+  margin: 0.75rem 0 1rem;
+}
+.caption img {
+  width: 25px;
+}

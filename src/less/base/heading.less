@@ -1,0 +1,24 @@
+.heading {
+    &-bold {
+        * {
+            font-weight: bold;
+        }
+    }
+    &-light {
+        * {
+            font-weight: 300;
+        }
+    }
+    &-border {
+        &-bottom {
+            * {
+                border-bottom: 1px solid @lightdark;
+                padding-bottom: 10px;
+            }
+        }
+    }
+}
+
+.sub-heading {
+    margin-top: 1.25rem;
+}

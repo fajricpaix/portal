@@ -1,0 +1,132 @@
+html::-webkit-scrollbar {
+  width: 5px;
+  height: 4px;
+  border-radius: 10px;
+  background-color: transparent;
+}
+html::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #9d9d9d;
+}
+body {
+  font-family: Roboto;
+}
+a {
+  text-decoration: none;
+}
+button,
+a,
+input,
+.btn {
+  outline: none;
+  color: unset;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+button:hover,
+a:hover,
+input:hover,
+.btn:hover {
+  text-decoration: none;
+  color: unset;
+}
+button:focus,
+a:focus,
+input:focus,
+.btn:focus {
+  box-shadow: none;
+  outline: none;
+}
+main {
+  min-height: 100vh;
+  padding-top: 72px;
+}
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+.url {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.btn-sosial-media {
+  color: #ffffff;
+  position: relative;
+  width: 225px;
+  margin-bottom: 0.5rem;
+}
+.btn-sosial-media:hover {
+  color: #ffffff;
+}
+.btn-sosial-media:before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  bottom: 2px;
+  left: 44px;
+  width: 1px;
+  background-color: #dddddd;
+}
+.btn-sosial-media img {
+  position: absolute;
+  left: 10px;
+  width: 25px;
+}
+.btn-tag {
+  background-color: transparent;
+  border: 1px solid #c00;
+  color: #c00;
+  border-radius: 0;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+.btn-tag:hover {
+  background-color: #c00;
+  color: #ffffff;
+}
+.btn-facebook {
+  background-color: #3B5998;
+}
+.btn-facebook:hover {
+  background-color: #263961;
+}
+.btn-twitter {
+  background-color: #55acee;
+}
+.btn-twitter:hover {
+  background-color: #1689e0;
+}
+.btn-linkedin {
+  background-color: #0077b5;
+}
+.btn-linkedin:hover {
+  background-color: #004569;
+}
+.btn-google {
+  background-color: #DD4B39;
+}
+.btn-google:hover {
+  background-color: #ac2d1e;
+}
+.btn-collapse {
+  position: relative;
+  display: block;
+}
+.btn-collapse img {
+  width: 25px;
+}
+.btn-collapse[aria-expanded="false"] img {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.btn-collapse[aria-expanded="true"] img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}

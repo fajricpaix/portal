@@ -1,0 +1,35 @@
+footer {
+    > a {
+        color: darken(@lightdark, 20%);
+        position: relative;
+        font-size: 10px;
+        > span {
+            padding-left: 10px;
+            font-size: 10px !important;
+        }
+        &:first-child {
+            &:before {
+                display: none;
+            }
+        }
+        &:before {
+            content: "";
+            position: absolute;
+            width: 3px; height: 3px;
+            left: 4px; top: 5px;
+            border-radius: 50%;
+            background-color: darken(@lightdark, 20%);
+        }
+    }
+}
+.footer {
+    &-right {
+        position: sticky;
+        top: 120px;
+        display: block;
+        @media @mobile {
+            display: none;
+        }
+    
+    }
+}
