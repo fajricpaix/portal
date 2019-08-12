@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>
+
+    ErrorDocument 403.shtml /
+
+    RewriteEngine On
+
+    <FilesMatch "\.(?:php)$">
+        Allow From All
+    </FilesMatch>
+
+</IfModule>
