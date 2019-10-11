@@ -46,6 +46,13 @@
                         <?php include './content/trending.php' ?>
                     </section>
 
+                    <section id="list_1" class="list-mobile">
+                        <div class="heading-bold heading-border-bottom">
+                            <h4>Penulis Lepas</h4>
+                        </div>
+                        <?php include './content/list-title.php' ?>
+                    </section>
+
                     <div class="image-slider-wrapper">                        
                         <div class="heading-bold">
                             <h4>Karikatur</h4>
@@ -77,7 +84,14 @@
                 </div>
                 <div class="col-md-4">
                     <div class="footer-right">
-                        <?php include './layout/login.php' ?>
+                        <!-- <?php include './layout/login.php' ?> -->
+                        <section id="list_1">
+                            <div class="heading-bold heading-border-bottom">
+                                <h4>Penulis Lepas</h4>
+                            </div>
+                            <?php include './content/list-title.php' ?>
+                        </section>
+
                         <?php include './layout/footer.php' ?>
                     </div>
                 </div>

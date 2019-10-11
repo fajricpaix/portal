@@ -34,7 +34,22 @@
             }
         }
     }
+    &-title {
+        padding: 10px 0 0;
+        margin-bottom: 5px;
+        &-caption {
+            width: auto;
+            height: auto;
+        }
+    }
+    &-mobile {
+        display: none;
+        @media @mobile {
+            display: block;
+        }
+    }
 }
+
 
 .trending {
     padding: 10px 0 10px 15px;

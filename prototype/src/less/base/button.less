@@ -1,0 +1,82 @@
+.btn {
+    &-sosial-media {
+        color: @light;
+        position: relative;
+        width: 225px;
+        margin-bottom: .5rem;
+        &:hover {
+            color: @light;
+        }
+        &:before {
+            content: "";
+            position: absolute;
+            top: 2px; bottom: 2px; left: 44px;
+            width: 1px;
+            background-color: @lightdark;
+        }
+        img {
+            position: absolute;
+            left: 10px;
+            width: 25px;
+        }
+    }
+    &-tag {
+        background-color: transparent;
+        border: 1px solid @primary;
+        color: @primary;
+        border-radius: 0;
+        text-transform: capitalize;
+        font-size: 14px;
+        margin-bottom: 5px;
+        &:hover {
+            background-color: @primary;
+            color: @light;
+        }
+    }
+    &-facebook {
+        background-color: @facebook;
+        &:hover {
+            background-color: darken(@facebook, 15%);
+        }
+    }
+    &-twitter {
+        background-color: @twitter;
+        &:hover {
+            background-color: darken(@twitter, 15%);
+        }
+    }
+    &-linkedin {
+        background-color: @linkedin;
+        &:hover {
+            background-color: darken(@linkedin, 15%);
+        }
+    }
+    &-google {
+        background-color: @google;
+        &:hover {
+            background-color: darken(@google, 15%);
+        }
+    }
+    &-collapse {
+        position: relative;
+        display: block;
+        img {
+            width: 25px;
+        }
+        &[aria-expanded="false"] {
+            img {
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+        }
+        &[aria-expanded="true"] {
+            img {
+                position: absolute;
+                right: 0;
+                top: 0;
+                transform: rotateZ(180deg);
+            }
+        }
+    }
+}

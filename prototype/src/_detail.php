@@ -114,8 +114,13 @@
                             <a href="javascript:;" class="btn btn-tag">ipsum</a>
                             <a href="javascript:;" class="btn btn-tag">consectetur</a>
                             <a href="javascript:;" class="btn btn-tag">adipisicing</a>
+                            <a href="javascript:;" class="btn btn-tag">elit</a>
+                            <a href="javascript:;" class="btn btn-tag">voluptatum</a>
+                            <a href="javascript:;" class="btn btn-tag">neque</a>
+                            <a href="javascript:;" class="btn btn-tag">accusantium</a>
+                            <a href="javascript:;" class="btn btn-tag">ducimus</a>
+                            <a href="javascript:;" class="btn btn-tag">delectus</a>
                         </div>
-                        <hr>
                     </section>
 
                     <section id="detail-other">
@@ -127,14 +132,13 @@
 
                 </div>
                 <div class="col-md-5">
-                    <section id="list_1">
-                        <div class="heading-bold heading-border-bottom">
-                            <h4>Populer Art</h4>
-                        </div>
-                        <?php include './content/list.php' ?>
-                    </section>
-
                     <div class="footer-right">
+                        <section id="list_1">
+                            <div class="heading-bold heading-border-bottom">
+                                <h4>Penulis Lepas</h4>
+                            </div>
+                            <?php include './content/list-title.php' ?>
+                        </section>
                         <?php include './layout/footer.php' ?>
                     </div>
                 </div>
