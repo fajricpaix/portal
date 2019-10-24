@@ -16,17 +16,17 @@
             <li>
                 <img src="./img/icon/home.png" alt="Home Icon">
                 <span>Beranda</span>
-                <a href="javascript:;" class="url"></a>
+                <a href="index.php" class="url"></a>
             </li>
             <li>
                 <img src="./img/icon/trending.png" alt="Trending Icon">
                 <span>Trending</span>
-                <a href="javascript:;" class="url"></a>
+                <a href="subpage.php" class="url"></a>
             </li>
             <li>
                 <img src="./img/icon/video.png" alt="Video Icon">
                 <span>Video</span>
-                <a href="javascript:;" class="url"></a>
+                <a href="video.php" class="url"></a>
             </li>
             <li>
                 <img src="./img/icon/album.png" alt="Photo Album Icon">
@@ -40,23 +40,23 @@
         <ul>
             <li>
                 <span>Berita</span>
-                <a href="javascript:;" class="url"></a>
+                <a href="subpage.php" class="url"></a>
             </li>
             <li>
                 <span>Entertaiment</span>
-                <a href="javascript:;" class="url"></a>
+                <a href="subpage.php" class="url"></a>
             </li>
             <li>
                 <span>Olahraga</span>
-                <a href="javascript:;" class="url"></a>
+                <a href="subpage.php" class="url"></a>
             </li>
             <li>
                 <span>Hukum</span>
-                <a href="javascript:;" class="url"></a>
+                <a href="subpage.php" class="url"></a>
             </li>
             <li>
                 <span>Pojok Aspirasi</span>
-                <a href="javascript:;" class="url"></a>
+                <a href="subpage.php" class="url"></a>
             </li>
         </ul>
     </section>

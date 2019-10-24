@@ -9,14 +9,16 @@
             </a>
         </div>
         <div class="col-md-6 header-search">
-            <div class="input-group">
-                <input type="text" class="form-control" placeholder="Kata Pencarian..." aria-label="Kata Pencarian..." aria-describedby="basic-addon2">
-                <div class="input-group-append">
-                    <button class="btn " type="button">
-                        <img src="img/icon/search.png" alt="Search Icon">
-                    </button>
+            <form action="search.php">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Kata Pencarian..." aria-label="Kata Pencarian..." aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <button class="btn" type="button">
+                            <img src="img/icon/search.png" alt="Search Icon">
+                        </button>
+                    </div>
                 </div>
-            </div>
+            </form>
         </div>
         <div class="col-md-3 col-3 text-right header-profil">
             <a href="javascript:;">

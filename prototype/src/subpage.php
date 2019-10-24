@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portal Berita</title>
+    <title>Portal Berita - Ekonomi</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css">
@@ -35,15 +35,17 @@
         <section class="container">
             <div class="row">
                 <div class="col-md-6 offset-md-2">
+
+                    <div class="heading-bold text-center">
+                        <h2>Ekonomi</h2>
+                    </div>
+
                     <!-- SLIDER -->
                         <?php include './content/slider.php' ?>
                     <!-- End Slider -->
 
                     <section id="trending">
-                        <div class="heading-bold heading-border-bottom">
-                            <h4>Populer</h4>
-                        </div>
-                        <?php include './content/trending.php' ?>
+                        <?php include './content/list.php' ?>
                     </section>
 
                     <section id="list_1" class="list-mobile">
@@ -51,34 +53,6 @@
                             <h4>Penulis Lepas</h4>
                         </div>
                         <?php include './content/list-title.php' ?>
-                    </section>
-
-                    <div class="image-slider-wrapper">                        
-                        <div class="heading-bold">
-                            <h4>Karikatur</h4>
-                        </div>
-                        <?php include './content/image-slider.php' ?>
-                    </div>
-
-                    <section id="list_1">
-                        <div class="heading-bold heading-border-bottom">
-                            <h4>Entertaiment</h4>
-                        </div>
-                        <?php include './content/list.php' ?>
-                    </section>
-                    
-                    <section class="video">
-                        <div class="heading-bold heading-border-bottom">
-                            <h4>Video</h4>
-                        </div>
-                        <?php include './content/video.php' ?>
-                    </section>
-
-                    <section id="list_1">
-                        <div class="heading-bold heading-border-bottom">
-                            <h4>Politik</h4>
-                        </div>
-                        <?php include './content/list.php' ?>
                     </section>
 
                 </div>
