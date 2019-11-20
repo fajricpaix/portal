@@ -5,11 +5,11 @@
             <div class="video-play">
                 <img src="img/icon/play.png" alt="Play button">
             </div>
-            <a href="javascript:;" class="url"></a>
+            <a href="_detail-video.php" class="url"></a>
         </div>
         <div class="video-caption caption">
             <h5>
-                <a href="_detail.php">
+                <a href="_detail-video.php">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet Lorem ipsum, dolor sit amet
                 </a>
             </h5>
@@ -27,11 +27,11 @@
             <div class="video-play">
                 <img src="img/icon/play.png" alt="Play button">
             </div>
-            <a href="javascript:;" class="url"></a>
+            <a href="_detail-video.php" class="url"></a>
         </div>
         <div class="video-caption caption">
             <h5>
-                <a href="_detail.php">
+                <a href="_detail-video.php">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet Lorem ipsum, dolor sit amet
                 </a>
             </h5>
@@ -49,11 +49,11 @@
             <div class="video-play">
                 <img src="img/icon/play.png" alt="Play button">
             </div>
-            <a href="javascript:;" class="url"></a>
+            <a href="_detail-video.php" class="url"></a>
         </div>
         <div class="video-caption caption">
             <h5>
-                <a href="_detail.php">
+                <a href="_detail-video.php">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet Lorem ipsum, dolor sit amet
                 </a>
             </h5>
@@ -71,11 +71,11 @@
             <div class="video-play">
                 <img src="img/icon/play.png" alt="Play button">
             </div>
-            <a href="javascript:;" class="url"></a>
+            <a href="_detail-video.php" class="url"></a>
         </div>
         <div class="video-caption caption">
             <h5>
-                <a href="_detail.php">
+                <a href="_detail-video.php">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet Lorem ipsum, dolor sit amet
                 </a>
             </h5>
@@ -93,11 +93,11 @@
             <div class="video-play">
                 <img src="img/icon/play.png" alt="Play button">
             </div>
-            <a href="javascript:;" class="url"></a>
+            <a href="_detail-video.php" class="url"></a>
         </div>
         <div class="video-caption caption">
             <h5>
-                <a href="_detail.php">
+                <a href="_detail-video.php">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet Lorem ipsum, dolor sit amet
                 </a>
             </h5>
@@ -115,11 +115,11 @@
             <div class="video-play">
                 <img src="img/icon/play.png" alt="Play button">
             </div>
-            <a href="javascript:;" class="url"></a>
+            <a href="_detail-video.php" class="url"></a>
         </div>
         <div class="video-caption caption">
             <h5>
-                <a href="_detail.php">
+                <a href="_detail-video.php">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet Lorem ipsum, dolor sit amet
                 </a>
             </h5>
